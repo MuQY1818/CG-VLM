@@ -1,0 +1,11 @@
+torch
+torchvision
+transformers
+timm==0.6.13
+kornia==0.7.4
+sentencepiece==0.1.99
+shortuuid
+einops
+einops-exts
+accelerate
+requests
