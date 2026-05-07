@@ -1,5 +1,7 @@
 # Conscious Gaze for Vision-Language Models
 
+![Conscious Gaze hero](assets/hero.png)
+
 This repository provides a reference implementation of **Conscious Gaze (CG-VLM)**, a decoding-time method for mitigating hallucination in vision-language models.
 
 The released code uses **InstructBLIP** as the example backbone. The CG-VLM logic is implemented in `core/conscious_gaze/` and integrated into a lightly patched InstructBLIP implementation under `core/instructblip/`. Other VLM backbones are not included in this release, but the method is organized so that the CDS and FCI components can be adapted to other architectures.
